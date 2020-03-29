@@ -1,0 +1,13 @@
+
+module Messenger
+{
+	struct Message {
+		long subjectId;
+		double time;
+		string from;
+		string topicName;
+		string text;
+		double data;
+	};
+#pragma keylist Message
+};
